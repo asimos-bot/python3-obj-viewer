@@ -21,7 +21,7 @@ class ModelWindow(QWidget):
         self.label = QLabel("filename:")
         self.label.setAlignment(Qt.AlignmentFlag.AlignBottom)
         self.input = QLineEdit()
-        self.input.setText("teapot.obj")
+        self.input.setText("obj/teapot.obj")
         self.render_button = QPushButton("Render")
 
         self.group_box = QVBoxLayout()
